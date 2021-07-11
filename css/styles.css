@@ -1,0 +1,53 @@
+/* Global Elements */
+.container-fluid{
+    padding: 3% 15%;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 3rem;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+/* Title Section */
+#title{
+    background-color: #CC9B6D;
+}
+.title-image{
+    width:60%;
+    margin-left: 5.5rem;
+}
+/* How it Works Section */
+#how-it-works{
+    padding: 7% 15%;
+}
+/* Testimonials Section*/
+#testimonials{
+    background-color: #F1CA89;
+}
+/* Pricing and Models Section */
+
+/* Try the App Section */
+#tta{
+    background-color: #F1CA89;
+}
+
+.download-button{
+    margin-left: 25px;
+}
+/* Footer */
+#footer{
+    background-color: #CC9B6D;
+    padding: 3% 15%;
+}
