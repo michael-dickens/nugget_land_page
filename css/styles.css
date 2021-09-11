@@ -4,12 +4,20 @@
 */
 
 /* Global Elements */
+
 .container-fluid{
     padding: 3% 15%;
 }
 
+.container {
+    text-align: center;
+    padding: 3% 7%;
+
+}
+
 body{
     font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
 h1{
@@ -17,6 +25,16 @@ h1{
     font-size: 3.5rem;
     color: white;
 }
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.25rem;
+}
+/* Sections */
+
 /* Navigation Bar */
 .navbar{
     padding: 0 0 3rem;
@@ -29,21 +47,29 @@ h1{
 /* Title Section */
 #title{
     background-color: #CC9B6D;
+    text-align: left;
 }
 .title-image{
     width:60%;
     margin-left: 5.5rem;
 }
+
 /* How it Works Section */
 #how-it-works{
-    padding: 7% 15%;
+    padding: 3% 7%;
 }
 /* Testimonials Section*/
 #testimonials{
     background-color: #F1CA89;
 }
 /* Pricing and Models Section */
+.pricing-column{
+    padding: 3%, 2%;
+}
 
+#pricing{
+    padding: 3% 7%;
+}
 /* Try the App Section */
 #tta{
     background-color: #F1CA89;
@@ -55,5 +81,6 @@ h1{
 /* Footer */
 #footer{
     background-color: #CC9B6D;
-    padding: 3% 15%;
+    padding: 3% 7%;
+    text-align: center;
 }
